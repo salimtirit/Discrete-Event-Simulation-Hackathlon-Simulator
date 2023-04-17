@@ -76,3 +76,9 @@ g++ *.cpp *.h -std=c++11 -o project2
 
 ## Conclusion:
 HackNPaper is a useful simulation project that can be used to optimize the resource allocation and queue management for hackathons. By determining the number of sticker and hoodie desks required for a given number of hackers, the simulation can help the organizers to ensure that the hackers have a good experience and can focus on coding rather than waiting in queues. This simulation project can be extended to model other events with a queuing system and can be a valuable tool for event organizers.
+
+## Contributing
+If you have any suggestions or find any issues with the code, please feel free to contribute to the project by opening a pull request or creating an issue.
+
+## Credits
+This is the second project of CMPE250 Data Structures and Algorithms class in Fall 2020.
