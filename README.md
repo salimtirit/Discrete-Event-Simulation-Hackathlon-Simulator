@@ -1,9 +1,9 @@
 # HackNPaper Discrete Event Simulation
 
-## Introduction:
+## Introduction
 HackNPaper is a discrete-event simulation project that simulates a hackathon organized by Dunder Mifflin, Scranton. This simulation models the operation of the hackathon by simulating certain events that occur at certain times. Hackers arrive at different times to the event and regularly commit code snippets. They are also interested in free stuff such as stickers and hoodies, and to grab them, they visit sticker and hoodie desks, which are placed sequentially. The simulation aims to find the number of desks that would be enough for the event.
 
-## HackNPaper Simulation:
+## HackNPaper Simulation
 This simulation project is designed to determine the number of sticker and hoodie desks required for the hackathon to avoid hackers spending too much time in queues and not focusing on coding. The simulation models the process of the hackathon as a series of discrete events in time, with each event marking a change of state in the system. The simulation includes the following features:
 
 1. Hackers arrive at different times to the event and commit code snippets regularly.
@@ -14,7 +14,7 @@ This simulation project is designed to determine the number of sticker and hoodi
 6. The committee counts only the commits with line changes over 20 towards queue entrance.
 7. The hoodie queue works based on the number of commits, and if any two hackers have an equal number of commits, the one that arrived earlier is served first.
 
-## Input:
+## Input
 The committee provides all simulation configuration files in the following format:
 * The first line contains an integer _N_ that denotes the total number of hackers and _N_ floats
 that denote the arrival time of each hacker in terms of seconds passed from the beginning
@@ -37,7 +37,7 @@ Similar to previous line, the i<sup>th</sup> element of the list denotes the ser
 ![image](https://user-images.githubusercontent.com/64011660/232539422-9a70e39b-2133-470c-9e9a-d18121f65673.png)
 
 
-## Output:
+## Output
 The output of the simulation includes the following information:
 
 * Maximum length of the sticker queue.
@@ -74,7 +74,7 @@ g++ *.cpp *.h -std=c++11 -o project2
 ./project2 inputFile outputFile
 ```
 
-## Conclusion:
+## Conclusion
 HackNPaper is a useful simulation project that can be used to optimize the resource allocation and queue management for hackathons. By determining the number of sticker and hoodie desks required for a given number of hackers, the simulation can help the organizers to ensure that the hackers have a good experience and can focus on coding rather than waiting in queues. This simulation project can be extended to model other events with a queuing system and can be a valuable tool for event organizers.
 
 ## Contributing
